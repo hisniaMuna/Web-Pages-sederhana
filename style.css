@@ -1,0 +1,57 @@
+body {
+  font: 16px/28px arial, sans-serif;
+  background-color: #e6e6fa;
+  color: #333;
+}
+h1 {
+  font-size: 20px;
+  font-weight: bold;
+}
+.container {
+  width: 800px;
+  margin: auto;
+  background-color: #db7093;
+}
+.header {
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.header ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+.header a {
+  text-decoration: none;
+  color: #fff;
+  padding: 3px;
+}
+.header a:hover {
+  background-color: lightgrey;
+}
+.hero {
+  height: 300px;
+  width: 800px;
+  margin: auto;
+  margin-top: -16px;
+  background-image: url(image/hero.png);
+  background-size: cover;
+  background-position: 0 -50px;
+  border-top: 5px solid LightSteelBlue;
+  border-bottom: 5px solid lightsteelblue;
+}
+.content {
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #db7093;
+  width: 760px;
+  margin: auto;
+}
+.content .penulis {
+  font-size: 12px;
+  margin-top: -20px;
+}
+.content p {
+  font-size: 14px;
+}
